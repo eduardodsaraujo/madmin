@@ -3,3 +3,38 @@
   top: 40%;
   left: 47%;
 }
+
+.input-field label,
+.input-field input[type="text"]:focus + label,
+.input-field .prefix.active {
+  color: #64b5f6 !important;
+}
+
+.section-login .input-field label,
+.section-login .input-field input[type="text"]:focus + label,
+.section-login .input-field .prefix.active {
+  color: white !important;
+}
+
+.input-field input[type="email"]:focus,
+.input-field input[type="text"]:focus,
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid #64b5f6 !important;
+  box-shadow: 0 1px 0 0 #64b5f6 !important;
+}
+
+.dropdown-content li > span {
+  color: #64b5f6 !important;
+}
+
+.login {
+  margin-top: 45px;
+  margin-bottom: 34px;
+}
+
+.btn-extended {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
